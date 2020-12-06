@@ -1,0 +1,73 @@
+CRITICAL - 2020-11-14 02:22:28 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Views\templates\template-dashboard.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 29, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('templates/templ...', Array, true)
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#4 D:\laragon\www\test1\app\Controllers\Absent.php(28): view('page/listabsent', Array)
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-14 02:22:28 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Views\templates\template-dashboard.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 29, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('templates/templ...', Array, true)
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#4 D:\laragon\www\test1\app\Controllers\Absent.php(28): view('page/listabsent', Array)
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-14 02:22:32 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Views\templates\template-dashboard.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 29, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('templates/templ...', Array, true)
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/manageabse...', Array, true)
+#4 D:\laragon\www\test1\app\Controllers\Absent.php(35): view('page/manageabse...', Array)
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-14 19:37:52 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Views\user\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 39, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('user/index', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\User.php(17): view('user/index', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->index()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-14 19:40:47 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Views\user\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 39, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('user/index', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\User.php(17): view('user/index', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->index()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-14 19:40:49 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Views\user\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 39, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('user/index', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\User.php(17): view('user/index', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->index()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-14 19:40:49 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Views\user\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 39, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('user/index', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\User.php(17): view('user/index', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->index()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

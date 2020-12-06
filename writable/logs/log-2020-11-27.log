@@ -1,0 +1,352 @@
+CRITICAL - 2020-11-27 08:01:52 --> Undefined index: jam_masuk
+#0 D:\laragon\www\test1\app\Views\absent\toggle.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 5, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('absent/toggle', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(24): view('absent/toggle', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->check()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 08:15:29 --> Undefined variable: k
+#0 D:\laragon\www\test1\app\Views\absent\toggle.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 5, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('absent/toggle', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(24): view('absent/toggle', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->check()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 08:16:41 --> Undefined index: id_absent
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 105, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(44): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 08:20:30 --> Undefined index: jam_masuk
+#0 D:\laragon\www\test1\app\Views\absent\toggle.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 32, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('absent/toggle', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(24): view('absent/toggle', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->check()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 08:20:32 --> Undefined index: jam_masuk
+#0 D:\laragon\www\test1\app\Views\absent\toggle.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 32, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('absent/toggle', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(24): view('absent/toggle', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->check()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 08:21:40 --> Undefined index: jam_masuk
+#0 D:\laragon\www\test1\app\Views\absent\toggle.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 32, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('absent/toggle', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(24): view('absent/toggle', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->check()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 08:26:57 --> Too few arguments to function CodeIgniter\HTTP\URI::getSegment(), 0 passed in D:\laragon\www\test1\app\Filters\Noauth.php on line 27 and at least 1 expected
+#0 D:\laragon\www\test1\app\Filters\Noauth.php(27): CodeIgniter\HTTP\URI->getSegment()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('absent/check', 'before')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 08:29:04 --> A non-numeric value encountered
+#0 D:\laragon\www\test1\app\Filters\Noauth.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\laragon\\www\\...', 30, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('absent/check', 'before')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 08:29:35 --> A non-numeric value encountered
+#0 D:\laragon\www\test1\app\Filters\Noauth.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\laragon\\www\\...', 30, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('absent/check', 'before')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 08:29:36 --> A non-numeric value encountered
+#0 D:\laragon\www\test1\app\Filters\Noauth.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\laragon\\www\\...', 30, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('absent/check', 'before')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 09:07:50 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'D:\\laragon\\www\\...', 56, Array)
+#1 D:\laragon\www\test1\app\Controllers\Absent.php(56): mktime(0, 0, 0, '2020-11-27', '2362019e-d14c-4...', '2020')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent('2362019e-d14c-4...', '2020-11-27')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-27 09:25:42 --> Class 'App\Models\RoleaccessModel' not found
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('team', 'before')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-27 10:52:09 --> Class 'App\Models\RoleaccessModel' not found
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('team', 'before')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-27 10:53:54 --> Argument 1 passed to CodeIgniter\Model::__construct() must implement interface CodeIgniter\Database\ConnectionInterface or be null, object given, called in D:\laragon\www\test1\app\Filters\Noauth.php on line 15
+#0 D:\laragon\www\test1\app\Filters\Noauth.php(15): CodeIgniter\Model->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('team', 'before')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 10:54:09 --> Argument 1 passed to CodeIgniter\Model::__construct() must implement interface CodeIgniter\Database\ConnectionInterface or be null, object given, called in D:\laragon\www\test1\app\Filters\Noauth.php on line 15
+#0 D:\laragon\www\test1\app\Filters\Noauth.php(15): CodeIgniter\Model->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('team', 'before')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 10:55:28 --> Argument 1 passed to CodeIgniter\Model::__construct() must implement interface CodeIgniter\Database\ConnectionInterface or be null, object given, called in D:\laragon\www\test1\app\Filters\Noauth.php on line 15
+#0 D:\laragon\www\test1\app\Filters\Noauth.php(15): CodeIgniter\Model->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('team', 'before')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 10:55:34 --> Argument 1 passed to CodeIgniter\Model::__construct() must implement interface CodeIgniter\Database\ConnectionInterface or be null, object given, called in D:\laragon\www\test1\app\Filters\Noauth.php on line 15
+#0 D:\laragon\www\test1\app\Filters\Noauth.php(15): CodeIgniter\Model->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('team', 'before')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 10:55:34 --> Argument 1 passed to CodeIgniter\Model::__construct() must implement interface CodeIgniter\Database\ConnectionInterface or be null, object given, called in D:\laragon\www\test1\app\Filters\Noauth.php on line 15
+#0 D:\laragon\www\test1\app\Filters\Noauth.php(15): CodeIgniter\Model->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('team', 'before')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 10:55:58 --> Argument 1 passed to CodeIgniter\Model::__construct() must implement interface CodeIgniter\Database\ConnectionInterface or be null, object given, called in D:\laragon\www\test1\app\Controllers\BaseController.php on line 48
+#0 D:\laragon\www\test1\app\Controllers\BaseController.php(48): CodeIgniter\Model->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 11:03:20 --> Undefined variable: valid
+#0 D:\laragon\www\test1\app\Controllers\User.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 103, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->adduser()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 11:06:59 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Views\user\detail.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 23, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('user/detail', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\User.php(227): view('user/detail', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->detailuser('3333b8bf-db65-4...')
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 11:08:51 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Views\user\detail.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 23, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('user/detail', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\User.php(227): view('user/detail', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->detailuser('3333b8bf-db65-4...')
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 11:09:16 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Views\user\detail.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 21, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('user/detail', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\User.php(227): view('user/detail', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->detailuser('3333b8bf-db65-4...')
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 11:09:47 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Views\user\detail.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 23, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('user/detail', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\User.php(227): view('user/detail', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->detailuser('3333b8bf-db65-4...')
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 11:10:46 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Filters\Noauth.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 40, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 11:12:11 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Filters\Noauth.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 42, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 11:12:42 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Filters\Noauth.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 40, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 11:12:48 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Filters\Noauth.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 40, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 11:13:24 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Filters\Noauth.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 40, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 11:13:25 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Filters\Noauth.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 40, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 11:16:08 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Filters\Noauth.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 40, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 11:16:09 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Filters\Noauth.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 40, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 11:16:10 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Filters\Noauth.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 40, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 11:16:11 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Filters\Noauth.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 40, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 11:16:14 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Filters\Noauth.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 40, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 11:16:14 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Filters\Noauth.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 40, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 11:20:46 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Filters\Noauth.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 42, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 11:25:18 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Filters\Noauth.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 42, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 11:25:20 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Filters\Noauth.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 42, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 14:14:51 --> Call to a member function find() on array
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/manageabse...', Array, true)
+#2 D:\laragon\www\test1\app\Controllers\Absent.php(100): view('page/manageabse...', Array)
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent('27', '11', '2020', '0', '2362019e-d14c-4...')
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 14:15:54 --> Call to a member function find() on array
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/manageabse...', Array, true)
+#2 D:\laragon\www\test1\app\Controllers\Absent.php(100): view('page/manageabse...', Array)
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent('27', '11', '2020', '0', '2362019e-d14c-4...')
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 14:17:12 --> Undefined variable: dataUser
+#0 D:\laragon\www\test1\app\Views\page\manageabsent.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 78, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/manageabse...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(100): view('page/manageabse...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent('27', '11', '2020', '0', '2362019e-d14c-4...')
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 14:27:20 --> Undefined variable: user
+#0 D:\laragon\www\test1\app\Views\team\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 9, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('team/index', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Team.php(14): view('team/index', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Team->index()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Team))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 14:30:08 --> Unknown column '32423sfdsf23423fsdf23423' in 'where clause'
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\test1\app\Controllers\Team.php(13): CodeIgniter\Model->findAll()
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Team->index()
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Team))
+#8 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

@@ -1,0 +1,551 @@
+CRITICAL - 2020-11-19 07:36:20 --> A non-numeric value encountered
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\laragon\\www\\...', 39, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(153): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 07:36:43 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 37, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(153): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 07:38:44 --> Undefined variable: item
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 3, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(153): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 07:49:27 --> Undefined index: created_at
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 7, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(153): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 07:55:48 --> Undefined variable: tahun
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 6, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(154): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 08:49:39 --> syntax error, unexpected '++' (T_INC), expecting ')'
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#1 D:\laragon\www\test1\app\Controllers\Absent.php(158): view('page/listabsent', Array)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-19 09:01:46 --> syntax error, unexpected '$no' (T_VARIABLE)
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#1 D:\laragon\www\test1\app\Controllers\Absent.php(158): view('page/listabsent', Array)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-19 09:10:30 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Controllers\Absent.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 143, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-19 09:10:36 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Controllers\Absent.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 143, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-19 15:51:22 --> Undefined variable: isBulan
+#0 D:\laragon\www\test1\app\Views\page\manageabsent.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 175, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/manageabse...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(165): view('page/manageabse...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 15:57:35 --> Undefined variable: absent
+#0 D:\laragon\www\test1\app\Views\page\manageabsent.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 41, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/manageabse...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(165): view('page/manageabse...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 15:57:47 --> Undefined variable: id
+#0 D:\laragon\www\test1\app\Controllers\Absent.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 164, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-19 15:57:48 --> Undefined variable: id
+#0 D:\laragon\www\test1\app\Controllers\Absent.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 164, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-19 16:03:43 --> Undefined variable: year
+#0 D:\laragon\www\test1\app\Views\page\manageabsent.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 26, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/manageabse...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(174): view('page/manageabse...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 16:18:15 --> Undefined index: name
+#0 D:\laragon\www\test1\app\Views\page\manageabsent.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 92, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/manageabse...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(180): view('page/manageabse...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 17:19:25 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Controllers\Absent.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 145, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-19 17:20:34 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 38, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(160): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 17:20:54 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Controllers\Absent.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 145, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-19 17:20:55 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Controllers\Absent.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 145, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-19 17:21:09 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Controllers\Absent.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 145, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-19 17:21:37 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Controllers\Absent.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 145, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-19 17:21:38 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Controllers\Absent.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 145, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-19 17:22:48 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 38, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(162): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 17:22:49 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 38, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(162): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 17:23:42 --> syntax error, unexpected end of file
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#1 D:\laragon\www\test1\app\Controllers\Absent.php(162): view('page/listabsent', Array)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-19 18:04:02 --> Undefined variable: no
+#0 D:\laragon\www\test1\app\Views\table\manageabsent.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 10, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 18:04:23 --> Undefined variable: day
+#0 D:\laragon\www\test1\app\Views\table\manageabsent.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 13, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 18:06:15 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'D:\\laragon\\www\\...', 13, Array)
+#1 D:\laragon\www\test1\app\Views\table\manageabsent.php(13): mktime('2017-01-16 09:2...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#4 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-19 18:06:15 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'D:\\laragon\\www\\...', 13, Array)
+#1 D:\laragon\www\test1\app\Views\table\manageabsent.php(13): mktime('2017-01-16 09:2...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#4 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-19 18:06:50 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'D:\\laragon\\www\\...', 13, Array)
+#1 D:\laragon\www\test1\app\Views\table\manageabsent.php(13): mktime('2017-01-16 09:2...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#4 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-19 18:07:17 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'D:\\laragon\\www\\...', 13, Array)
+#1 D:\laragon\www\test1\app\Views\table\manageabsent.php(13): mktime('2017-01-16 09:2...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#4 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-19 18:08:20 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'D:\\laragon\\www\\...', 167, Array)
+#1 D:\laragon\www\test1\app\Controllers\Absent.php(167): mktime('2017-01-16 09:2...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-19 18:08:39 --> mktime(): You should be using the time() function instead
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'mktime(): You s...', 'D:\\laragon\\www\\...', 168, Array)
+#1 D:\laragon\www\test1\app\Controllers\Absent.php(168): mktime()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-19 18:08:40 --> mktime(): You should be using the time() function instead
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'mktime(): You s...', 'D:\\laragon\\www\\...', 168, Array)
+#1 D:\laragon\www\test1\app\Controllers\Absent.php(168): mktime()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-19 18:08:41 --> mktime(): You should be using the time() function instead
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'mktime(): You s...', 'D:\\laragon\\www\\...', 168, Array)
+#1 D:\laragon\www\test1\app\Controllers\Absent.php(168): mktime()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-19 18:08:44 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'D:\\laragon\\www\\...', 13, Array)
+#1 D:\laragon\www\test1\app\Views\table\manageabsent.php(13): mktime('2017-01-16 09:2...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#4 D:\laragon\www\test1\app\Controllers\Absent.php(189): view('table/manageabs...', Array)
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-19 18:13:10 --> Undefined variable: date
+#0 D:\laragon\www\test1\app\Views\table\manageabsent.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 14, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 18:13:28 --> Undefined variable: date
+#0 D:\laragon\www\test1\app\Views\table\manageabsent.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 19, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 18:14:43 --> Undefined variable: date
+#0 D:\laragon\www\test1\app\Views\table\manageabsent.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 19, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 18:14:44 --> Undefined variable: date
+#0 D:\laragon\www\test1\app\Views\table\manageabsent.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 19, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 18:23:17 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Views\table\manageabsent.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 11, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 18:23:43 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Views\table\manageabsent.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 11, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 18:23:44 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Views\table\manageabsent.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 11, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 18:24:02 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Views\table\manageabsent.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 12, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 18:30:47 --> Undefined variable: i
+#0 D:\laragon\www\test1\app\Views\table\manageabsent.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 3, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent('0', '11', '2020', '2362019e-d14c-4...')
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 18:32:38 --> Undefined variable: i
+#0 D:\laragon\www\test1\app\Views\table\manageabsent.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 3, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent('0', '11', '2020', '2362019e-d14c-4...')
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 18:35:44 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Views\table\manageabsent.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 15, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent('0', '11', '2020', '2362019e-d14c-4...')
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 18:37:26 --> Undefined variable: itemAbsent1
+#0 D:\laragon\www\test1\app\Views\table\manageabsent.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 6, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent('0', '11', '2020', '2362019e-d14c-4...')
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 18:39:06 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Views\table\manageabsent.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 17, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent('0', '11', '2020', '2362019e-d14c-4...')
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 18:40:46 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\test1\app\Views\table\manageabsent.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 17, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent('0', '11', '2020', '2362019e-d14c-4...')
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 18:54:03 --> Call to undefined method App\Models\AbsentModel::wherfindAll
+#0 D:\laragon\www\test1\app\Views\table\manageabsent.php(5): CodeIgniter\Model->__call('wherfindAll', Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent('0', '0', '2020', '2362019e-d14c-4...', '2362019e-d14c-4...')
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 18:54:08 --> Call to undefined method App\Models\AbsentModel::wherfindAll
+#0 D:\laragon\www\test1\app\Views\table\manageabsent.php(5): CodeIgniter\Model->__call('wherfindAll', Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 19:12:52 --> Illegal string offset 'user_id'
+#0 D:\laragon\www\test1\app\Views\table\manageabsent.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\laragon\\www\\...', 24, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent('0', '0', '2019', '2362019e-d14c-4...', '2362019e-d14c-4...')
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 19:13:43 --> Illegal string offset 'user_id'
+#0 D:\laragon\www\test1\app\Views\table\manageabsent.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\laragon\\www\\...', 25, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent('0', '0', '2019', '2362019e-d14c-4...', '2362019e-d14c-4...')
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 19:13:52 --> Illegal string offset 'user_id'
+#0 D:\laragon\www\test1\app\Views\table\manageabsent.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\laragon\\www\\...', 24, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent('0', '0', '2019', '2362019e-d14c-4...', '2362019e-d14c-4...')
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 19:13:53 --> Illegal string offset 'user_id'
+#0 D:\laragon\www\test1\app\Views\table\manageabsent.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\laragon\\www\\...', 24, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent('0', '0', '2019', '2362019e-d14c-4...', '2362019e-d14c-4...')
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 19:14:31 --> Illegal string offset 'user_id'
+#0 D:\laragon\www\test1\app\Views\table\manageabsent.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\laragon\\www\\...', 24, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent('0', '0', '2019', '2362019e-d14c-4...', '2362019e-d14c-4...')
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 19:14:32 --> Illegal string offset 'user_id'
+#0 D:\laragon\www\test1\app\Views\table\manageabsent.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\laragon\\www\\...', 24, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent('0', '0', '2019', '2362019e-d14c-4...', '2362019e-d14c-4...')
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-19 19:30:19 --> Undefined variable: filterTeam
+#0 D:\laragon\www\test1\app\Views\table\manageabsent.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 39, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/manageabs...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(187): view('table/manageabs...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent('19', '11', '2020', '2362019e-d14c-4...', '2362019e-d14c-4...')
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

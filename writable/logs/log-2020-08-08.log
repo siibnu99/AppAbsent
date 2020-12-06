@@ -1,0 +1,273 @@
+CRITICAL - 2020-08-08 03:28:37 --> Unable to connect to the database.
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\laragon\www\SiPosci\app\Filters\Noauth.php(22): CodeIgniter\Model->first()
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2020-08-08 03:28:49 --> Unable to connect to the database.
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\laragon\www\SiPosci\app\Filters\Noauth.php(22): CodeIgniter\Model->first()
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2020-08-08 03:52:29 --> Undefined variable: msg
+#0 D:\laragon\www\SiPosci\app\Controllers\Category.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 172, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Category->import_excel()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2020-08-08 03:54:59 --> Call to a member function getClientExtension() on null
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Category->import_excel()
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2020-08-08 04:14:39 --> syntax error, unexpected '}'
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('category/import...')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('category/import...')
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2020-08-08 04:18:21 --> There is no data to insert.
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Model.php(700): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 D:\laragon\www\SiPosci\app\Controllers\Category.php(181): CodeIgniter\Model->insert()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Category->import_excel()
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2020-08-08 04:25:12 --> Array to string conversion
+#0 D:\laragon\www\SiPosci\app\Controllers\Category.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\laragon\\www\\...', 184, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Category->import_excel()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2020-08-08 04:30:27 --> Undefined variable: data
+#0 D:\laragon\www\SiPosci\app\Controllers\Category.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 172, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Category->import_excel()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2020-08-08 20:17:16 --> Undefined property: stdClass::$id_category
+#0 D:\laragon\www\SiPosci\app\Controllers\Category.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 231, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Category->data_category()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2020-08-08 20:18:31 --> Undefined property: stdClass::$id_category
+#0 D:\laragon\www\SiPosci\app\Controllers\Category.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 231, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Category->data_category()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2020-08-08 20:19:56 --> Undefined property: stdClass::$id_category
+#0 D:\laragon\www\SiPosci\app\Controllers\Category.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 231, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Category->data_category()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2020-08-08 20:20:36 --> Undefined property: stdClass::$id_category
+#0 D:\laragon\www\SiPosci\app\Controllers\Category.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 231, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Category->data_category()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2020-08-08 20:20:36 --> Undefined property: stdClass::$id_category
+#0 D:\laragon\www\SiPosci\app\Controllers\Category.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 231, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Category->data_category()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2020-08-08 20:20:38 --> Undefined property: stdClass::$id_category
+#0 D:\laragon\www\SiPosci\app\Controllers\Category.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 231, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Category->data_category()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2020-08-08 20:24:41 --> Undefined property: stdClass::$id_category
+#0 D:\laragon\www\SiPosci\app\Controllers\Category.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 231, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Category->data_category()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2020-08-08 20:25:30 --> Undefined property: stdClass::$id_category
+#0 D:\laragon\www\SiPosci\app\Controllers\Category.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 231, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Category->data_category()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2020-08-08 20:56:10 --> Duplicate entry '' for key 'PRIMARY'
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\SiPosci\app\Controllers\Unit.php(52): CodeIgniter\Model->insert(Array)
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Unit->add_unit()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2020-08-08 20:56:58 --> Duplicate entry '' for key 'PRIMARY'
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\SiPosci\app\Controllers\Unit.php(52): CodeIgniter\Model->insert(Array)
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Unit->add_unit()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2020-08-08 21:10:41 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#1 D:\laragon\www\SiPosci\app\Controllers\Unit.php(119): CodeIgniter\Model->delete('')
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Unit->remove_unit()
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2020-08-08 21:15:51 --> Column 'name' cannot be null
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\SiPosci\app\Controllers\Unit.php(192): CodeIgniter\Model->insert(Array)
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Unit->import_excel()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2020-08-08 21:16:38 --> Column 'name' cannot be null
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\SiPosci\app\Controllers\Unit.php(192): CodeIgniter\Model->insert(Array)
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Unit->import_excel()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2020-08-08 21:17:13 --> Column 'name' cannot be null
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\SiPosci\app\Controllers\Unit.php(192): CodeIgniter\Model->insert(Array)
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Unit->import_excel()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2020-08-08 21:19:08 --> Column 'name' cannot be null
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\SiPosci\app\Controllers\Unit.php(192): CodeIgniter\Model->insert(Array)
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Unit->import_excel()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2020-08-08 21:21:00 --> Column 'name' cannot be null
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\SiPosci\app\Controllers\Unit.php(192): CodeIgniter\Model->insert(Array)
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Unit->import_excel()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2020-08-08 21:21:51 --> Column 'name' cannot be null
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\SiPosci\app\Controllers\Unit.php(193): CodeIgniter\Model->insert(Array)
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Unit->import_excel()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2020-08-08 21:22:15 --> Column 'name' cannot be null
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\SiPosci\app\Controllers\Unit.php(193): CodeIgniter\Model->insert(Array)
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Unit->import_excel()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2020-08-08 21:25:49 --> Column 'name' cannot be null
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\SiPosci\app\Controllers\Unit.php(192): CodeIgniter\Model->insert(Array)
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Unit->import_excel()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#11 {main}

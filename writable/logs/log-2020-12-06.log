@@ -1,0 +1,60 @@
+CRITICAL - 2020-12-06 12:42:33 --> Undefined variable: user
+#0 D:\laragon\www\test1\app\Views\dashboard\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 8, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Dashboard.php(12): view('dashboard/index', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-06 12:50:24 --> Undefined variable: dUser
+#0 D:\laragon\www\test1\app\Views\table\countabsentlabel.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 118, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/countabse...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(81): view('table/countabse...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent('0', '06', '2020', '0', '0')
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-06 12:52:18 --> Undefined variable: dUser
+#0 D:\laragon\www\test1\app\Views\table\countabsentlabel.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 118, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/countabse...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(81): view('table/countabse...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent('0', '06', '2020', '0', '0')
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-06 12:52:19 --> Undefined variable: dUser
+#0 D:\laragon\www\test1\app\Views\table\countabsentlabel.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 118, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/countabse...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(81): view('table/countabse...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent('0', '06', '2020', '0', '0')
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-06 12:52:20 --> Undefined variable: dUser
+#0 D:\laragon\www\test1\app\Views\table\countabsentlabel.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 118, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/countabse...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(81): view('table/countabse...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent('0', '06', '2020', '0', '0')
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-06 12:52:22 --> Undefined variable: dUser
+#0 D:\laragon\www\test1\app\Views\table\countabsentlabel.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 118, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('table/countabse...', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(81): view('table/countabse...', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->manageabsent('0', '06', '2020', '0', '0')
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

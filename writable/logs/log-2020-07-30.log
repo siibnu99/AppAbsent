@@ -1,0 +1,84 @@
+CRITICAL - 2020-07-30 18:34:49 --> Class 'App\Libraries\Uuid' not found
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2020-07-30 18:35:09 --> Invalid file: auth/login.php
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('auth/login', Array, true)
+#2 D:\laragon\www\SiPosci\app\Controllers\Auth.php(23): view('auth/login', Array)
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->index()
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2020-07-30 19:28:06 --> Undefined variable: msg
+#0 D:\laragon\www\SiPosci\app\Controllers\Auth.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 52, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->user_login()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2020-07-30 19:28:45 --> Undefined variable: msg
+#0 D:\laragon\www\SiPosci\app\Controllers\Auth.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 52, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->user_login()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2020-07-30 20:09:36 --> Declaration of App\Filters\Auth::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-07-30 20:09:37 --> Declaration of App\Filters\Auth::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-07-30 20:09:39 --> Declaration of App\Filters\Auth::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-07-30 20:09:55 --> Declaration of App\Filters\Auth::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-07-30 20:10:09 --> Declaration of App\Filters\Auth::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-07-30 20:10:36 --> Declaration of App\Filters\Auth::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-07-30 20:10:37 --> Declaration of App\Filters\Auth::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-07-30 20:11:01 --> Declaration of App\Filters\Auth::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-07-30 20:11:02 --> Declaration of App\Filters\Auth::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-07-30 20:11:03 --> Declaration of App\Filters\Auth::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-07-30 20:12:07 --> Declaration of App\Filters\Auth::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-07-30 20:12:08 --> Declaration of App\Filters\Auth::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-07-30 20:12:09 --> Declaration of App\Filters\Auth::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-07-30 20:12:22 --> Declaration of App\Filters\Auth::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-07-30 20:12:48 --> Declaration of App\Filters\Auth::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-07-30 20:16:06 --> Declaration of App\Filters\Auth::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-07-30 20:16:07 --> Declaration of App\Filters\Auth::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

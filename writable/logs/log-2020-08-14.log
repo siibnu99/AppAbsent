@@ -1,0 +1,100 @@
+CRITICAL - 2020-08-14 07:50:17 --> Unknown column 'province' in 'field list'
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `provinc...')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `provinc...')
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `provinc...')
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `provinc...', Array, false)
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\SiPosci\app\Controllers\Supplier.php(282): CodeIgniter\Model->find('f3a75bdc-47b1-4...')
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\supplier->get_single()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\supplier))
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2020-08-14 07:52:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`name AS regencie villages`.`name` AS `village`
+FROM `tbl_supplier`
+JOIN `provi' at line 1
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `provinc...')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `provinc...')
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `provinc...')
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `provinc...', Array, false)
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\SiPosci\app\Controllers\Supplier.php(282): CodeIgniter\Model->find('f3a75bdc-47b1-4...')
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\supplier->get_single()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\supplier))
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2020-08-14 08:02:00 --> Unknown column 'provinces' in 'field list'
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `provinc...')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `provinc...')
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `provinc...')
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `provinc...', Array, false)
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\SiPosci\app\Controllers\Supplier.php(273): CodeIgniter\Model->find('f3a75bdc-47b1-4...')
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\supplier->get_single()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\supplier))
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2020-08-14 08:02:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*
+FROM `tbl_supplier`
+JOIN `provinces` ON `tbl_supplier`.`province_id` = `provin' at line 1
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `provinc...')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `provinc...')
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `provinc...')
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `provinc...', Array, false)
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\SiPosci\app\Controllers\Supplier.php(273): CodeIgniter\Model->find('f3a75bdc-47b1-4...')
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\supplier->get_single()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\supplier))
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2020-08-14 08:08:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*
+FROM `tbl_supplier`
+JOIN `provinces` ON `tbl_supplier`.`province_id` = `provin' at line 1
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `provinc...')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `provinc...')
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `provinc...')
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `provinc...', Array, false)
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\SiPosci\app\Controllers\Supplier.php(273): CodeIgniter\Model->find('f3a75bdc-47b1-4...')
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\supplier->get_single()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\supplier))
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2020-08-14 08:18:05 --> Unknown column 'regencies.name' in 'field list'
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `tbl_sup...')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_sup...')
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_sup...')
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_sup...', Array, false)
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\SiPosci\app\Controllers\Supplier.php(284): CodeIgniter\Model->find('dc8322b8-9953-4...')
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\supplier->get_single()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\supplier))
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2020-08-14 08:23:37 --> Undefined variable: list
+#0 D:\laragon\www\SiPosci\app\Controllers\Supplier.php(286): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 286, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\supplier->get_single()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\supplier))
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2020-08-14 08:23:47 --> Undefined variable: list
+#0 D:\laragon\www\SiPosci\app\Controllers\Supplier.php(286): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 286, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\supplier->get_single()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\supplier))
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#6 {main}

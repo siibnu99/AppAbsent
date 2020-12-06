@@ -1,0 +1,342 @@
+CRITICAL - 2020-08-03 00:23:43 --> syntax error, unexpected ']', expecting identifier (T_STRING)
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\laragon\\www\\...')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2020-08-03 00:24:03 --> Invalid file: vajax/role.php
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vajax/role.php')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('vajax/role', Array, true)
+#2 D:\laragon\www\SiPosci\app\Controllers\Role.php(90): view('vajax/role', Array)
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->role_display()
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2020-08-03 00:24:52 --> Invalid file: vajax/role.php
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vajax/role.php')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('vajax/role', Array, true)
+#2 D:\laragon\www\SiPosci\app\Controllers\Role.php(90): view('vajax/role', Array)
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->role_display()
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2020-08-03 00:30:20 --> Column 'name' cannot be null
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\SiPosci\app\Controllers\Role.php(73): CodeIgniter\Model->insert(Array)
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->add_role()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2020-08-03 00:45:27 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\laragon\\www\\...')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2020-08-03 00:45:29 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\laragon\\www\\...')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2020-08-03 00:46:03 --> Undefined variable: validation
+#0 D:\laragon\www\SiPosci\app\Views\access\role.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 71, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('access/role', Array, true)
+#3 D:\laragon\www\SiPosci\app\Controllers\Role.php(9): view('access/role')
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->index()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2020-08-03 00:46:04 --> Undefined variable: validation
+#0 D:\laragon\www\SiPosci\app\Views\access\role.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 71, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('access/role', Array, true)
+#3 D:\laragon\www\SiPosci\app\Controllers\Role.php(9): view('access/role')
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->index()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2020-08-03 00:46:06 --> Undefined variable: validation
+#0 D:\laragon\www\SiPosci\app\Views\access\role.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 71, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('access/role', Array, true)
+#3 D:\laragon\www\SiPosci\app\Controllers\Role.php(9): view('access/role')
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->index()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2020-08-03 04:39:15 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in D:\laragon\www\SiPosci\app\Models\RoleModel.php on line 49
+#0 D:\laragon\www\SiPosci\app\Models\RoleModel.php(49): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 D:\laragon\www\SiPosci\app\Models\RoleModel.php(57): App\Models\RoleModel->_get_datatables_query()
+#2 D:\laragon\www\SiPosci\app\Controllers\Role.php(160): App\Models\RoleModel->get_datatables()
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->data_role()
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2020-08-03 04:39:17 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in D:\laragon\www\SiPosci\app\Models\RoleModel.php on line 49
+#0 D:\laragon\www\SiPosci\app\Models\RoleModel.php(49): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 D:\laragon\www\SiPosci\app\Models\RoleModel.php(57): App\Models\RoleModel->_get_datatables_query()
+#2 D:\laragon\www\SiPosci\app\Controllers\Role.php(160): App\Models\RoleModel->get_datatables()
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->data_role()
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2020-08-03 04:39:19 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in D:\laragon\www\SiPosci\app\Models\RoleModel.php on line 49
+#0 D:\laragon\www\SiPosci\app\Models\RoleModel.php(49): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 D:\laragon\www\SiPosci\app\Models\RoleModel.php(57): App\Models\RoleModel->_get_datatables_query()
+#2 D:\laragon\www\SiPosci\app\Controllers\Role.php(160): App\Models\RoleModel->get_datatables()
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->data_role()
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2020-08-03 04:39:20 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in D:\laragon\www\SiPosci\app\Models\RoleModel.php on line 49
+#0 D:\laragon\www\SiPosci\app\Models\RoleModel.php(49): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 D:\laragon\www\SiPosci\app\Models\RoleModel.php(57): App\Models\RoleModel->_get_datatables_query()
+#2 D:\laragon\www\SiPosci\app\Controllers\Role.php(160): App\Models\RoleModel->get_datatables()
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->data_role()
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2020-08-03 04:39:24 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in D:\laragon\www\SiPosci\app\Models\RoleModel.php on line 49
+#0 D:\laragon\www\SiPosci\app\Models\RoleModel.php(49): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 D:\laragon\www\SiPosci\app\Models\RoleModel.php(57): App\Models\RoleModel->_get_datatables_query()
+#2 D:\laragon\www\SiPosci\app\Controllers\Role.php(160): App\Models\RoleModel->get_datatables()
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->data_role()
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2020-08-03 04:41:13 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in D:\laragon\www\SiPosci\app\Models\RoleModel.php on line 49
+#0 D:\laragon\www\SiPosci\app\Models\RoleModel.php(49): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 D:\laragon\www\SiPosci\app\Models\RoleModel.php(57): App\Models\RoleModel->_get_datatables_query()
+#2 D:\laragon\www\SiPosci\app\Controllers\Role.php(160): App\Models\RoleModel->get_datatables()
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->data_role()
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2020-08-03 04:41:15 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in D:\laragon\www\SiPosci\app\Models\RoleModel.php on line 49
+#0 D:\laragon\www\SiPosci\app\Models\RoleModel.php(49): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 D:\laragon\www\SiPosci\app\Models\RoleModel.php(57): App\Models\RoleModel->_get_datatables_query()
+#2 D:\laragon\www\SiPosci\app\Controllers\Role.php(160): App\Models\RoleModel->get_datatables()
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->data_role()
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2020-08-03 04:41:17 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in D:\laragon\www\SiPosci\app\Models\RoleModel.php on line 49
+#0 D:\laragon\www\SiPosci\app\Models\RoleModel.php(49): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 D:\laragon\www\SiPosci\app\Models\RoleModel.php(57): App\Models\RoleModel->_get_datatables_query()
+#2 D:\laragon\www\SiPosci\app\Controllers\Role.php(160): App\Models\RoleModel->get_datatables()
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->data_role()
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2020-08-03 04:45:03 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in D:\laragon\www\SiPosci\app\Models\RoleModel.php on line 49
+#0 D:\laragon\www\SiPosci\app\Models\RoleModel.php(49): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 D:\laragon\www\SiPosci\app\Models\RoleModel.php(57): App\Models\RoleModel->_get_datatables_query()
+#2 D:\laragon\www\SiPosci\app\Controllers\Role.php(160): App\Models\RoleModel->get_datatables()
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->data_role()
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2020-08-03 04:45:05 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in D:\laragon\www\SiPosci\app\Models\RoleModel.php on line 49
+#0 D:\laragon\www\SiPosci\app\Models\RoleModel.php(49): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 D:\laragon\www\SiPosci\app\Models\RoleModel.php(57): App\Models\RoleModel->_get_datatables_query()
+#2 D:\laragon\www\SiPosci\app\Controllers\Role.php(160): App\Models\RoleModel->get_datatables()
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->data_role()
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2020-08-03 04:45:10 --> Undefined offset: 6
+#0 D:\laragon\www\SiPosci\app\Models\RoleModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 49, Array)
+#1 D:\laragon\www\SiPosci\app\Models\RoleModel.php(57): App\Models\RoleModel->_get_datatables_query()
+#2 D:\laragon\www\SiPosci\app\Controllers\Role.php(160): App\Models\RoleModel->get_datatables()
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->data_role()
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2020-08-03 04:45:41 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in D:\laragon\www\SiPosci\app\Models\RoleModel.php on line 49
+#0 D:\laragon\www\SiPosci\app\Models\RoleModel.php(49): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 D:\laragon\www\SiPosci\app\Models\RoleModel.php(57): App\Models\RoleModel->_get_datatables_query()
+#2 D:\laragon\www\SiPosci\app\Controllers\Role.php(160): App\Models\RoleModel->get_datatables()
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->data_role()
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2020-08-03 04:45:44 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in D:\laragon\www\SiPosci\app\Models\RoleModel.php on line 49
+#0 D:\laragon\www\SiPosci\app\Models\RoleModel.php(49): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 D:\laragon\www\SiPosci\app\Models\RoleModel.php(57): App\Models\RoleModel->_get_datatables_query()
+#2 D:\laragon\www\SiPosci\app\Controllers\Role.php(160): App\Models\RoleModel->get_datatables()
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->data_role()
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2020-08-03 04:45:45 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in D:\laragon\www\SiPosci\app\Models\RoleModel.php on line 49
+#0 D:\laragon\www\SiPosci\app\Models\RoleModel.php(49): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 D:\laragon\www\SiPosci\app\Models\RoleModel.php(57): App\Models\RoleModel->_get_datatables_query()
+#2 D:\laragon\www\SiPosci\app\Controllers\Role.php(160): App\Models\RoleModel->get_datatables()
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->data_role()
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2020-08-03 05:20:31 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in D:\laragon\www\SiPosci\app\Models\RoleModel.php on line 51
+#0 D:\laragon\www\SiPosci\app\Models\RoleModel.php(51): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 D:\laragon\www\SiPosci\app\Models\RoleModel.php(59): App\Models\RoleModel->_get_datatables_query()
+#2 D:\laragon\www\SiPosci\app\Controllers\Role.php(160): App\Models\RoleModel->get_datatables()
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->data_role()
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2020-08-03 05:20:34 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in D:\laragon\www\SiPosci\app\Models\RoleModel.php on line 51
+#0 D:\laragon\www\SiPosci\app\Models\RoleModel.php(51): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 D:\laragon\www\SiPosci\app\Models\RoleModel.php(59): App\Models\RoleModel->_get_datatables_query()
+#2 D:\laragon\www\SiPosci\app\Controllers\Role.php(160): App\Models\RoleModel->get_datatables()
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->data_role()
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2020-08-03 05:33:32 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\laragon\\www\\...')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2020-08-03 05:36:19 --> Undefined index: is_active
+#0 D:\laragon\www\SiPosci\app\Controllers\Role.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 143, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->change_active()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2020-08-03 05:37:04 --> Undefined index: is_active
+#0 D:\laragon\www\SiPosci\app\Controllers\Role.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 143, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->change_active()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2020-08-03 05:37:43 --> Undefined index: is_active
+#0 D:\laragon\www\SiPosci\app\Controllers\Role.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 143, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->change_active()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2020-08-03 05:38:33 --> Undefined index: is_active
+#0 D:\laragon\www\SiPosci\app\Controllers\Role.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 143, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->change_active()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2020-08-03 05:39:05 --> Undefined index: is_active
+#0 D:\laragon\www\SiPosci\app\Controllers\Role.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 143, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->change_active()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2020-08-03 05:39:29 --> Undefined index: is_active
+#0 D:\laragon\www\SiPosci\app\Controllers\Role.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 143, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->change_active()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2020-08-03 05:40:21 --> Undefined index: is_active
+#0 D:\laragon\www\SiPosci\app\Controllers\Role.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 143, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->change_active()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2020-08-03 05:41:46 --> Undefined index: is_active
+#0 D:\laragon\www\SiPosci\app\Controllers\Role.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 153, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->change_active()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2020-08-03 05:42:04 --> Trying to get property 'is_active' of non-object
+#0 D:\laragon\www\SiPosci\app\Controllers\Role.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\laragon\\www\\...', 153, Array)
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Role->change_active()
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#6 {main}

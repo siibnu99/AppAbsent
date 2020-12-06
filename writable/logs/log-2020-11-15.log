@@ -1,0 +1,733 @@
+CRITICAL - 2020-11-15 09:14:21 --> Undefined offset: 2
+#0 D:\laragon\www\test1\app\Helpers\date_helper.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 59, Array)
+#1 D:\laragon\www\test1\app\Controllers\User.php(217): tgl_indo('2020NovSun')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->test()
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-15 09:14:31 --> Undefined offset: 2
+#0 D:\laragon\www\test1\app\Helpers\date_helper.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 59, Array)
+#1 D:\laragon\www\test1\app\Controllers\User.php(217): tgl_indo('2020 Nov Sun')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->test()
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-15 09:14:32 --> Undefined offset: 2
+#0 D:\laragon\www\test1\app\Helpers\date_helper.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 59, Array)
+#1 D:\laragon\www\test1\app\Controllers\User.php(217): tgl_indo('2020 Nov Sun')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->test()
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-15 09:17:21 --> Undefined index: hari
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 71, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(34): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 09:22:00 --> Undefined property: App\Controllers\Absent::$AbsentModel
+#0 D:\laragon\www\test1\app\Controllers\Absent.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 34, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-15 09:23:42 --> Undefined property: App\Controllers\Absent::$AbsentModel
+#0 D:\laragon\www\test1\app\Controllers\Absent.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 34, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-15 09:23:44 --> Undefined property: App\Controllers\Absent::$AbsentModel
+#0 D:\laragon\www\test1\app\Controllers\Absent.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 34, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-15 09:23:56 --> Undefined variable: absents
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 68, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(36): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 09:34:20 --> Too few arguments to function statusAbsent(), 0 passed in D:\laragon\www\test1\app\Views\page\listabsent.php on line 76 and exactly 2 expected
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(76): statusAbsent()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(36): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 09:35:21 --> Too few arguments to function statusAbsent(), 0 passed in D:\laragon\www\test1\app\Views\page\listabsent.php on line 76 and exactly 2 expected
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(76): statusAbsent()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(36): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 09:41:31 --> Undefined variable: dari
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 68, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(36): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 09:43:26 --> Undefined variable: dari
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 69, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(36): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 09:46:22 --> syntax error, unexpected end of file
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#1 D:\laragon\www\test1\app\Controllers\Absent.php(36): view('page/listabsent', Array)
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-15 11:45:19 --> Cannot use a scalar value as an array
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot use a sc...', 'D:\\laragon\\www\\...', 74, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(36): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 11:45:34 --> Cannot use a scalar value as an array
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot use a sc...', 'D:\\laragon\\www\\...', 73, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(36): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 11:45:35 --> Cannot use a scalar value as an array
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot use a sc...', 'D:\\laragon\\www\\...', 73, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(36): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 11:48:09 --> Undefined variable: absent
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 77, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(36): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 11:48:22 --> Undefined variable: absent
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 80, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(36): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 11:52:23 --> Undefined offset: 2
+#0 D:\laragon\www\test1\app\Helpers\date_helper.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 59, Array)
+#1 D:\laragon\www\test1\app\Views\page\listabsent.php(77): tgl_indo('Sun', '2020-11-15')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#4 D:\laragon\www\test1\app\Controllers\Absent.php(36): view('page/listabsent', Array)
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 11:53:33 --> Undefined offset: 2
+#0 D:\laragon\www\test1\app\Helpers\date_helper.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 59, Array)
+#1 D:\laragon\www\test1\app\Views\page\listabsent.php(77): tgl_indo('Sun', '2020-11-15')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#4 D:\laragon\www\test1\app\Controllers\Absent.php(36): view('page/listabsent', Array)
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 12:04:26 --> Array to string conversion
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\laragon\\www\\...', 78, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(36): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 12:04:46 --> Undefined offset: 0
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 78, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(36): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 12:04:47 --> Undefined offset: 0
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 78, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(36): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 12:06:14 --> Trying to access array offset on value of type int
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 78, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(36): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 12:06:27 --> Undefined offset: 0
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 78, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(36): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 14:20:10 --> syntax error, unexpected '}'
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('absent/test')
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('absent/test')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-15 14:34:47 --> Undefined offset: 1
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 6, Array)
+#1 D:\laragon\www\test1\app\Helpers\absent_helper.php(13): jamkeint('')
+#2 D:\laragon\www\test1\app\Views\page\listabsent.php(81): statusAbsent('', '')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#5 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#8 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-15 14:35:10 --> Undefined offset: 1
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 7, Array)
+#1 D:\laragon\www\test1\app\Helpers\absent_helper.php(14): jamkeint('')
+#2 D:\laragon\www\test1\app\Views\page\listabsent.php(81): statusAbsent('', '')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#5 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#8 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-15 14:35:47 --> Undefined offset: 1
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 6, Array)
+#1 D:\laragon\www\test1\app\Helpers\absent_helper.php(13): jamkeint(0)
+#2 D:\laragon\www\test1\app\Views\page\listabsent.php(81): statusAbsent('', '')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#5 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#8 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-15 14:37:36 --> Undefined offset: 1
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 6, Array)
+#1 D:\laragon\www\test1\app\Helpers\absent_helper.php(13): jamkeint(0)
+#2 D:\laragon\www\test1\app\Views\page\listabsent.php(81): statusAbsent('', '')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#5 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#8 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-15 14:37:37 --> Undefined offset: 1
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 6, Array)
+#1 D:\laragon\www\test1\app\Helpers\absent_helper.php(13): jamkeint(0)
+#2 D:\laragon\www\test1\app\Views\page\listabsent.php(81): statusAbsent('', '')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#5 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#8 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-15 14:37:38 --> Undefined offset: 1
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 6, Array)
+#1 D:\laragon\www\test1\app\Helpers\absent_helper.php(13): jamkeint(0)
+#2 D:\laragon\www\test1\app\Views\page\listabsent.php(81): statusAbsent('', '')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#5 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#8 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-15 14:37:47 --> Undefined offset: 1
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 6, Array)
+#1 D:\laragon\www\test1\app\Helpers\absent_helper.php(13): jamkeint('')
+#2 D:\laragon\www\test1\app\Views\page\listabsent.php(81): statusAbsent('', '')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#5 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#8 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-15 14:37:47 --> Undefined offset: 1
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 6, Array)
+#1 D:\laragon\www\test1\app\Helpers\absent_helper.php(13): jamkeint('')
+#2 D:\laragon\www\test1\app\Views\page\listabsent.php(81): statusAbsent('', '')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#5 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#8 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-15 14:37:48 --> Undefined offset: 1
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 6, Array)
+#1 D:\laragon\www\test1\app\Helpers\absent_helper.php(13): jamkeint('')
+#2 D:\laragon\www\test1\app\Views\page\listabsent.php(81): statusAbsent('', '')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#5 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#8 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-15 14:37:52 --> Undefined variable: menit
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 6, Array)
+#1 D:\laragon\www\test1\app\Helpers\absent_helper.php(11): jamkeint('09')
+#2 D:\laragon\www\test1\app\Views\page\listabsent.php(81): statusAbsent('09:24:53', '00:00:00')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#5 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#8 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-15 14:37:53 --> Undefined variable: menit
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 6, Array)
+#1 D:\laragon\www\test1\app\Helpers\absent_helper.php(11): jamkeint('09')
+#2 D:\laragon\www\test1\app\Views\page\listabsent.php(81): statusAbsent('09:24:53', '00:00:00')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#5 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#8 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-15 14:37:58 --> Undefined offset: 1
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 6, Array)
+#1 D:\laragon\www\test1\app\Helpers\absent_helper.php(13): jamkeint('')
+#2 D:\laragon\www\test1\app\Views\page\listabsent.php(81): statusAbsent('', '')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#5 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#8 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-15 14:37:58 --> Undefined offset: 1
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 6, Array)
+#1 D:\laragon\www\test1\app\Helpers\absent_helper.php(13): jamkeint('')
+#2 D:\laragon\www\test1\app\Views\page\listabsent.php(81): statusAbsent('', '')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#5 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#8 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-15 14:38:04 --> Undefined offset: 1
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 6, Array)
+#1 D:\laragon\www\test1\app\Helpers\absent_helper.php(13): jamkeint('')
+#2 D:\laragon\www\test1\app\Views\page\listabsent.php(81): statusAbsent('', '')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#5 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#8 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-15 14:38:04 --> Undefined offset: 1
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 6, Array)
+#1 D:\laragon\www\test1\app\Helpers\absent_helper.php(13): jamkeint('')
+#2 D:\laragon\www\test1\app\Views\page\listabsent.php(81): statusAbsent('', '')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#5 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#8 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-15 14:38:12 --> Undefined offset: 1
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 6, Array)
+#1 D:\laragon\www\test1\app\Helpers\absent_helper.php(13): jamkeint('')
+#2 D:\laragon\www\test1\app\Views\page\listabsent.php(81): statusAbsent('', '')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#5 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#8 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-15 14:38:15 --> Undefined offset: 1
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 5, Array)
+#1 D:\laragon\www\test1\app\Helpers\absent_helper.php(13): jamkeint('')
+#2 D:\laragon\www\test1\app\Views\page\listabsent.php(81): statusAbsent('', '')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#5 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#8 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-15 14:38:15 --> Undefined offset: 1
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 5, Array)
+#1 D:\laragon\www\test1\app\Helpers\absent_helper.php(13): jamkeint('')
+#2 D:\laragon\www\test1\app\Views\page\listabsent.php(81): statusAbsent('', '')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#5 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#8 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-15 14:38:19 --> Undefined offset: 2
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 5, Array)
+#1 D:\laragon\www\test1\app\Helpers\absent_helper.php(13): jamkeint('')
+#2 D:\laragon\www\test1\app\Views\page\listabsent.php(81): statusAbsent('', '')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#5 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#8 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-15 14:38:20 --> Undefined offset: 2
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 5, Array)
+#1 D:\laragon\www\test1\app\Helpers\absent_helper.php(13): jamkeint('')
+#2 D:\laragon\www\test1\app\Views\page\listabsent.php(81): statusAbsent('', '')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#5 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#8 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-15 14:43:09 --> syntax error, unexpected ';', expecting ')'
+#0 D:\laragon\www\test1\app\Controllers\Absent.php(28): helper(Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-15 14:43:14 --> Call to undefined function amkeint()
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(81): statusAbsent('09:24:53', '00:00:00')
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 14:43:16 --> Call to undefined function amkeint()
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(81): statusAbsent('09:24:53', '00:00:00')
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 14:43:18 --> Call to undefined function amkeint()
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(81): statusAbsent('09:24:53', '00:00:00')
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 14:47:57 --> syntax error, unexpected 'return' (T_RETURN)
+#0 D:\laragon\www\test1\app\Controllers\Absent.php(28): helper(Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-15 14:54:26 --> Undefined variable: date
+#0 D:\laragon\www\test1\app\Views\page\listabsent.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 71, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#3 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 14:54:46 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'D:\\laragon\\www\\...', 74, Array)
+#1 D:\laragon\www\test1\app\Views\page\listabsent.php(74): date('m', '2020-11-15')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#4 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 14:55:28 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'D:\\laragon\\www\\...', 74, Array)
+#1 D:\laragon\www\test1\app\Views\page\listabsent.php(74): date('m', '2020-11-15')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#4 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 14:55:29 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'D:\\laragon\\www\\...', 74, Array)
+#1 D:\laragon\www\test1\app\Views\page\listabsent.php(74): date('m', '2020-11-15')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#4 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 16:48:24 --> Undefined variable: max_date
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 43, Array)
+#1 D:\laragon\www\test1\app\Views\page\listabsent.php(131): countStatusAbsent('alpha', '11')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#4 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 16:48:40 --> Undefined variable: in
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 52, Array)
+#1 D:\laragon\www\test1\app\Views\page\listabsent.php(131): countStatusAbsent('alpha', '2020-10-31')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#4 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 17:07:42 --> Undefined offset: 0
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 54, Array)
+#1 D:\laragon\www\test1\app\Views\page\listabsent.php(131): countStatusAbsent('alpha', '2020-10-31')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#4 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 17:08:04 --> Undefined offset: 0
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 53, Array)
+#1 D:\laragon\www\test1\app\Views\page\listabsent.php(131): countStatusAbsent('alpha', '2020-11-12')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#4 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 17:08:05 --> Undefined offset: 0
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 53, Array)
+#1 D:\laragon\www\test1\app\Views\page\listabsent.php(131): countStatusAbsent('alpha', '2020-11-12')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#4 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 17:08:30 --> Undefined index: in
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 53, Array)
+#1 D:\laragon\www\test1\app\Views\page\listabsent.php(131): countStatusAbsent('alpha', '2020-11-15')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#4 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 17:08:31 --> Undefined index: in
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 53, Array)
+#1 D:\laragon\www\test1\app\Views\page\listabsent.php(131): countStatusAbsent('alpha', '2020-11-15')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#4 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 17:08:31 --> Undefined index: in
+#0 D:\laragon\www\test1\app\Helpers\absent_helper.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 53, Array)
+#1 D:\laragon\www\test1\app\Views\page\listabsent.php(131): countStatusAbsent('alpha', '2020-11-15')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#4 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 17:15:44 --> Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(572): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Unparenthesized...', 'D:\\laragon\\www\\...', 53, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(572): include_once()
+#2 D:\laragon\www\test1\app\Controllers\Absent.php(28): helper(Array)
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-15 17:17:55 --> Call to undefined function 2020-10-31()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#2 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#4 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-15 17:18:25 --> Undefined offset: 2
+#0 D:\laragon\www\test1\app\Helpers\date_helper.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 59, Array)
+#1 D:\laragon\www\test1\app\Views\page\listabsent.php(101): tgl_indo('2020-11')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#4 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 17:18:38 --> Undefined offset: 2
+#0 D:\laragon\www\test1\app\Helpers\date_helper.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 59, Array)
+#1 D:\laragon\www\test1\app\Views\page\listabsent.php(101): tgl_indo('2020-110')
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\Common.php(1026): CodeIgniter\View\View->render('page/listabsent', Array, true)
+#4 D:\laragon\www\test1\app\Controllers\Absent.php(38): view('page/listabsent', Array)
+#5 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#6 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#7 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 17:30:54 --> Too few arguments to function App\Controllers\Absent::listabsent(), 0 passed in D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 2 expected
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-15 17:32:09 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-15 17:32:10 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-15 17:32:13 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-15 17:33:48 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-15 17:33:51 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-15 17:33:51 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-15 17:34:55 --> Too few arguments to function App\Controllers\Absent::listabsent(), 0 passed in D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 2 expected
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-15 17:34:56 --> Too few arguments to function App\Controllers\Absent::listabsent(), 0 passed in D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 2 expected
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Absent->listabsent()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absent))
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

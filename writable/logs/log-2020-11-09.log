@@ -1,0 +1,257 @@
+CRITICAL - 2020-11-09 00:27:46 --> Call to undefined function App\Controllers\noauth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:29:30 --> Call to undefined function App\Controllers\noauth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:29:32 --> Call to undefined function App\Controllers\noauth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:30:41 --> Cannot call constructor
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:30:42 --> Cannot call constructor
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:30:43 --> Cannot call constructor
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:32:22 --> Cannot call constructor
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:32:23 --> Cannot call constructor
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:33:09 --> Too few arguments to function CodeIgniter\Router\RouteCollection::__construct(), 0 passed in D:\laragon\www\test1\app\Controllers\Absent.php on line 11 and exactly 2 expected
+#0 D:\laragon\www\test1\app\Controllers\Absent.php(11): CodeIgniter\Router\RouteCollection->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-09 00:33:11 --> Too few arguments to function CodeIgniter\Router\RouteCollection::__construct(), 0 passed in D:\laragon\www\test1\app\Controllers\Absent.php on line 11 and exactly 2 expected
+#0 D:\laragon\www\test1\app\Controllers\Absent.php(11): CodeIgniter\Router\RouteCollection->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-09 00:33:27 --> Call to undefined function App\Controllers\noauth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:35:32 --> Call to undefined function App\Controllers\noauth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:35:33 --> Call to undefined function App\Controllers\noauth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:35:34 --> Call to undefined function App\Controllers\noauth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:35:34 --> Call to undefined function App\Controllers\noauth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:35:35 --> Call to undefined function App\Controllers\noauth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:35:35 --> Call to undefined function App\Controllers\noauth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:36:19 --> Undefined variable: UserModel
+#0 D:\laragon\www\test1\app\Controllers\Absent.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 14, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-09 00:37:29 --> Undefined property: App\Controllers\Absent::$UserModel
+#0 D:\laragon\www\test1\app\Controllers\Absent.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 14, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-09 00:37:30 --> Undefined property: App\Controllers\Absent::$UserModel
+#0 D:\laragon\www\test1\app\Controllers\Absent.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 14, Array)
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-09 00:48:53 --> Call to undefined function App\Controllers\no_auth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\User->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:49:17 --> Call to undefined function App\Controllers\no_auth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\User->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:49:18 --> Call to undefined function App\Controllers\no_auth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\User->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:49:25 --> Call to undefined function App\Controllers\no_auth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\User->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:49:25 --> Call to undefined function App\Controllers\no_auth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\User->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:49:26 --> Call to undefined function App\Controllers\no_auth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\User->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:49:26 --> Call to undefined function App\Controllers\no_auth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\User->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:49:30 --> Call to undefined function App\Controllers\no_auth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\User->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:49:30 --> Call to undefined function App\Controllers\no_auth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\User->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:49:30 --> Call to undefined function App\Controllers\no_auth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\User->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:49:39 --> Call to undefined function App\Controllers\no_auth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\User->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:49:39 --> Call to undefined function App\Controllers\no_auth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\User->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:49:40 --> Call to undefined function App\Controllers\no_auth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\User->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:49:45 --> Call to undefined function App\Controllers\no_auth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:49:51 --> Call to undefined function App\Controllers\no_auth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:53:58 --> Call to undefined function App\Controllers\no_auth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:57:42 --> Call to undefined function App\Controllers\no_auth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:58:12 --> Call to undefined function App\Controllers\no_auth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:58:23 --> Call to undefined function App\Controllers\no_auth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:58:23 --> Call to undefined function App\Controllers\no_auth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 00:58:24 --> Call to undefined function App\Controllers\no_auth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Absent->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-09 01:59:16 --> Call to undefined function App\Controllers\no_auth()
+#0 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\User->__construct()
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

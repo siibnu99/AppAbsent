@@ -1,0 +1,13 @@
+CRITICAL - 2020-08-13 22:40:29 --> Column 'regency_id' cannot be null
+#0 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\SiPosci\app\Controllers\Supplier.php(129): CodeIgniter\Model->insert(Array)
+#6 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\supplier->add_supplier()
+#7 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\supplier))
+#8 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\SiPosci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\SiPosci\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#11 {main}

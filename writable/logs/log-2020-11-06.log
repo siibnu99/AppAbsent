@@ -1,0 +1,24 @@
+CRITICAL - 2020-11-06 09:48:50 --> Trying to access array offset on value of type null
+#0 D:\Project\Web\Trading\trad1\app\Controllers\Submenus.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Web\\...', 158, Array)
+#1 D:\Project\Web\Trading\trad1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Submenus->remove_submenu()
+#2 D:\Project\Web\Trading\trad1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submenus))
+#3 D:\Project\Web\Trading\trad1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Web\Trading\trad1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Web\Trading\trad1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Web\\...')
+#6 {main}
+CRITICAL - 2020-11-06 09:49:01 --> Trying to access array offset on value of type null
+#0 D:\Project\Web\Trading\trad1\app\Controllers\Submenus.php(197): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Web\\...', 197, Array)
+#1 D:\Project\Web\Trading\trad1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Submenus->change_active()
+#2 D:\Project\Web\Trading\trad1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submenus))
+#3 D:\Project\Web\Trading\trad1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Web\Trading\trad1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Web\Trading\trad1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Web\\...')
+#6 {main}
+CRITICAL - 2020-11-06 09:49:32 --> Trying to access array offset on value of type null
+#0 D:\Project\Web\Trading\trad1\app\Controllers\Submenus.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Web\\...', 158, Array)
+#1 D:\Project\Web\Trading\trad1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Submenus->remove_submenu()
+#2 D:\Project\Web\Trading\trad1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submenus))
+#3 D:\Project\Web\Trading\trad1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Web\Trading\trad1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Web\Trading\trad1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Web\\...')
+#6 {main}

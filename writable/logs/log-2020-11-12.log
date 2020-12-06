@@ -1,0 +1,49 @@
+CRITICAL - 2020-11-12 11:45:03 --> Argument 1 passed to CodeIgniter\Model::__construct() must implement interface CodeIgniter\Database\ConnectionInterface or be null, object given, called in D:\laragon\www\test1\app\Controllers\BaseController.php on line 57
+#0 D:\laragon\www\test1\app\Controllers\BaseController.php(57): CodeIgniter\Model->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-12 11:45:47 --> Argument 1 passed to CodeIgniter\Model::__construct() must implement interface CodeIgniter\Database\ConnectionInterface or be null, object given, called in D:\laragon\www\test1\app\Controllers\BaseController.php on line 57
+#0 D:\laragon\www\test1\app\Controllers\BaseController.php(57): CodeIgniter\Model->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-12 11:45:48 --> Argument 1 passed to CodeIgniter\Model::__construct() must implement interface CodeIgniter\Database\ConnectionInterface or be null, object given, called in D:\laragon\www\test1\app\Controllers\BaseController.php on line 57
+#0 D:\laragon\www\test1\app\Controllers\BaseController.php(57): CodeIgniter\Model->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-12 11:46:00 --> Argument 1 passed to CodeIgniter\Model::__construct() must implement interface CodeIgniter\Database\ConnectionInterface or be null, object given, called in D:\laragon\www\test1\app\Controllers\BaseController.php on line 57
+#0 D:\laragon\www\test1\app\Controllers\BaseController.php(57): CodeIgniter\Model->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-12 11:46:01 --> Argument 1 passed to CodeIgniter\Model::__construct() must implement interface CodeIgniter\Database\ConnectionInterface or be null, object given, called in D:\laragon\www\test1\app\Controllers\BaseController.php on line 57
+#0 D:\laragon\www\test1\app\Controllers\BaseController.php(57): CodeIgniter\Model->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-12 11:46:02 --> Argument 1 passed to CodeIgniter\Model::__construct() must implement interface CodeIgniter\Database\ConnectionInterface or be null, object given, called in D:\laragon\www\test1\app\Controllers\BaseController.php on line 57
+#0 D:\laragon\www\test1\app\Controllers\BaseController.php(57): CodeIgniter\Model->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-12 11:46:02 --> Argument 1 passed to CodeIgniter\Model::__construct() must implement interface CodeIgniter\Database\ConnectionInterface or be null, object given, called in D:\laragon\www\test1\app\Controllers\BaseController.php on line 57
+#0 D:\laragon\www\test1\app\Controllers\BaseController.php(57): CodeIgniter\Model->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#1 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
